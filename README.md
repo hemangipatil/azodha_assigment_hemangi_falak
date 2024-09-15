@@ -1,16 +1,24 @@
-# azodha_assigment_hemangi_falak
+# Contact Form App
 
-A new Flutter project.
+This is a simple Flutter app that allows users to add a new contact with fields for Name, Email, Phone Number, and Address. The contact data is stored in Firebase Firestore using the BLoC pattern for state management and a clean MVVM-like architecture.
 
-## Getting Started
+## Requirements
 
-This project is a starting point for a Flutter application.
+- Flutter SDK
+- Firebase project with Firestore enabled
 
-A few resources to get you started if this is your first Flutter project:
+## Setup
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Clone the repository.
+2. Run `flutter pub get` to install dependencies.
+3. Set up Firebase in your Flutter app:
+    - Follow the [Firebase Flutter Setup Guide](https://firebase.google.com/docs/flutter/setup) to configure Firebase with your project.
+    - Add your `google-services.json` for Android and `GoogleService-Info.plist` for iOS in the appropriate directories.
+4. Run the app using `flutter run`.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Features
+
+- Add new contacts with Name, Email, Phone, and Address.
+- Contacts are stored in Firebase Firestore.
+- BLoC pattern for state management.
+- Clean architecture (MVVM-like).
